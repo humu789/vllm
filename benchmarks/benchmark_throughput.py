@@ -68,7 +68,7 @@ def run_vllm(
     llm = LLM(
         model=model,
         tokenizer=tokenizer,
-        quantization=quantization,
+        # quantization=quantization,
         tensor_parallel_size=tensor_parallel_size,
         seed=seed,
         trust_remote_code=trust_remote_code,
